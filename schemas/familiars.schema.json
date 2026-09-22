@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://collector-rpg.local/schemas/familiars.schema.json",
+  "title": "Familiars",
+  "description": "Schema for familiar definitions in src/data/familiars/familiars.yaml",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["name", "id", "description", "location", "alignment", "rarities"],
+    "properties": {
+      "name": {
+        "type": "string",
+        "minLength": 1,
+        "description": "Display name of the familiar."
+      },
+      "id": {
+        "type": "string",
+        "minLength": 1,
+        "pattern": "^[a-z][a-z0-9_]*$",
+        "description": "Stable snake_case identifier used in code."
+      },
+      "description": {
+        "type": "string",
+        "minLength": 1,
+        "description": "Short gameplay effect or flavor text."
+      },
+      "location": {
+        "type": "string",
+        "minLength": 1,
+        "description": "Primary location associated with this familiar."
+      },
+      "alignment": {
+        "type": "string",
+        "enum": ["good", "evil", "neutral"],
+        "description": "Moral alignment of the familiar."
+      },
+      "rarities": {
+        "type": "array",
+        "minItems": 1,
+        "uniqueItems": true,
+        "description": "Rarity tiers this familiar can appear as.",
+        "items": {
+          "type": "string",
+          "enum": ["common", "uncommon", "rare", "epic", "legendary"]
+        }
+      }
+    }
+  }
+}
