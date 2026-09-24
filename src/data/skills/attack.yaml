@@ -1,0 +1,3 @@
+- name: 'Attack'
+  id: 'skill_attack'
+  description: 'Combat prowess and dealing damage.'

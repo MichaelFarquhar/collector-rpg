@@ -1,0 +1,3 @@
+- name: 'Thieving'
+  id: 'skill_thieving'
+  description: 'Committing crimes and other illegal activities.'

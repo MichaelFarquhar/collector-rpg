@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://collector-rpg.local/schemas/skills.schema.json",
+  "title": "Skills",
+  "description": "Schema for skill definitions in src/data/skills/*.yaml",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["name", "id", "description"],
+    "properties": {
+      "name": {
+        "type": "string",
+        "minLength": 1,
+        "description": "Display name of the skill."
+      },
+      "id": {
+        "type": "string",
+        "minLength": 1,
+        "pattern": "^skill_[a-z][a-z0-9_]*$",
+        "description": "Stable identifier matching the skill image filename (without extension)."
+      },
+      "description": {
+        "type": "string",
+        "minLength": 1,
+        "description": "Short gameplay effect or flavor text."
+      }
+    }
+  }
+}
