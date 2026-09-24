@@ -1,0 +1,6 @@
+:root {
+  --overlay-width: 90vw;
+  --overlay-max-height: 90vh;
+  --overlay-backdrop-blur: 4px;
+  --overlay-z-index: 1000;
+}

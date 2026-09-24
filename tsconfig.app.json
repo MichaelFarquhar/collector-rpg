@@ -7,6 +7,9 @@
     "types": ["vite/client"],
     "allowArbitraryExtensions": true,
     "skipLibCheck": true,
+    "paths": {
+      "@primitives/*": ["./src/primitives/*"]
+    },
 
     /* Bundler mode */
     "moduleResolution": "bundler",

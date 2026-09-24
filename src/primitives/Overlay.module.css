@@ -1,0 +1,15 @@
+.backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: var(--overlay-z-index);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(var(--overlay-backdrop-blur));
+}
+
+.panel {
+  width: var(--overlay-width);
+  max-height: var(--overlay-max-height);
+  overflow: auto;
+}
