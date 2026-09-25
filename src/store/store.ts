@@ -1,8 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
-import skillsReducer from "./slices/skillsSlice.ts";
+import playerReducer from "@store-player/playerSlice.ts";
+import skillsReducer from "@store-skills/skillsSlice.ts";
 
 export const store = configureStore({
   reducer: {
+    player: playerReducer,
     skills: skillsReducer,
   },
 });

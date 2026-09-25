@@ -15,6 +15,8 @@ export default defineConfig({
   resolve: {
     alias: {
       '@primitives': path.resolve(__dirname, 'src/primitives'),
+      '@store-skills': path.resolve(__dirname, 'src/store/skills'),
+      '@store-player': path.resolve(__dirname, 'src/store/player'),
     },
   },
 })

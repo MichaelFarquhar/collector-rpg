@@ -8,7 +8,9 @@
     "allowArbitraryExtensions": true,
     "skipLibCheck": true,
     "paths": {
-      "@primitives/*": ["./src/primitives/*"]
+      "@primitives/*": ["./src/primitives/*"],
+      "@store-skills/*": ["./src/store/skills/*"],
+      "@store-player/*": ["./src/store/player/*"]
     },
 
     /* Bundler mode */

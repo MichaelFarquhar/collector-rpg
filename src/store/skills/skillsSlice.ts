@@ -1,14 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-
-export type Skill = {
-  name: string;
-  id: string;
-  description: string;
-};
-
-type SkillsState = {
-  skills: Skill[];
-};
+import type { SkillsState } from "./skillsTypes.ts";
 
 const initialState: SkillsState = {
   skills: [],
