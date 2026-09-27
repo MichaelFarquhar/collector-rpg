@@ -4,7 +4,7 @@ import { Provider } from "react-redux";
 import { Overlay } from "@primitives/index";
 import { store } from "./store/store.ts";
 import "./styles/variables.css";
-import "./index.css";
+import "./styles/global.css";
 import App from "./App.tsx";
 
 function Root() {

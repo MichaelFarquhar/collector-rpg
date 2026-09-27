@@ -1,0 +1,10 @@
+---
+description: Do not start a dev server; the user runs it themselves
+alwaysApply: true
+---
+
+# Do not start a dev server
+
+Never start this project's dev server. Do not run `npm run dev`, `vite`, `vite preview`, or any equivalent command that serves the app.
+
+The user starts and stops the server. If one is already running, use that URL. If none is running, skip browser checks that need it and say the server was not started.

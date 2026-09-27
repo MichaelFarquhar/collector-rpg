@@ -1,4 +1,5 @@
 :root {
+  --font-family: "Jersey 25", system-ui, sans-serif;
   --overlay-width: 90vw;
   --overlay-max-height: 90vh;
   --overlay-backdrop-blur: 4px;
