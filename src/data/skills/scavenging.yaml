@@ -1,3 +1,4 @@
-- name: 'Scavenging'
-  id: 'skill_scavenging'
-  description: 'Collecting items from the environment.'
+- name: "Scavenging"
+  id: "skill_scavenging"
+  description: "Collecting items from the environment."
+  category: "gathering"

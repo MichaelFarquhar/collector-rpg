@@ -5,7 +5,7 @@ import { Overlay } from "@primitives/index";
 import { store } from "./store/store.ts";
 import "./styles/variables.css";
 import "./styles/global.css";
-import App from "./App.tsx";
+import { App } from "./App.tsx";
 
 function Root() {
   const [overlayOpen, setOverlayOpen] = useState(false);

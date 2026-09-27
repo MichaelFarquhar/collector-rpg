@@ -1,3 +1,4 @@
-- name: 'Woodcutting'
-  id: 'skill_woodcutting'
-  description: 'Chopping trees and gathering wood.'
+- name: "Woodcutting"
+  id: "skill_woodcutting"
+  description: "Chopping trees and gathering wood."
+  category: "gathering"

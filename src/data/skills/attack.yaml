@@ -1,3 +1,4 @@
-- name: 'Attack'
-  id: 'skill_attack'
-  description: 'Combat prowess and dealing damage.'
+- name: "Attack"
+  id: "skill_attack"
+  description: "Combat prowess and dealing damage."
+  category: "combat"

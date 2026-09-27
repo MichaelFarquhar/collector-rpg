@@ -1,3 +1,4 @@
-- name: 'Agility'
-  id: 'skill_agility'
-  description: 'Navigating obstacles and traps.'
+- name: "Agility"
+  id: "skill_agility"
+  description: "Navigating obstacles and traps."
+  category: "utility"

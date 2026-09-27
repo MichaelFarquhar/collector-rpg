@@ -1,3 +1,4 @@
-- name: 'Occultism'
-  id: 'skill_occultism'
-  description: 'Studying dark arts, necromancy and other forbidden knowledge.'
+- name: "Occultism"
+  id: "skill_occultism"
+  description: "Studying dark arts, necromancy and other forbidden knowledge."
+  category: "utility"
