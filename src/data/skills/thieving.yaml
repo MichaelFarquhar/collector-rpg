@@ -2,3 +2,4 @@
   id: "skill_thieving"
   description: "Committing crimes and other illegal activities."
   category: "utility"
+  sort_order: 5

@@ -2,3 +2,4 @@
   id: "skill_attack"
   description: "Combat prowess and dealing damage."
   category: "combat"
+  sort_order: 2

@@ -2,3 +2,4 @@
   id: "skill_scavenging"
   description: "Collecting items from the environment."
   category: "gathering"
+  sort_order: 4

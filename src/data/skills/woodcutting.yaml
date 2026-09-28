@@ -2,3 +2,4 @@
   id: "skill_woodcutting"
   description: "Chopping trees and gathering wood."
   category: "gathering"
+  sort_order: 6

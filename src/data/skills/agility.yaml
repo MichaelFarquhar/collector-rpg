@@ -2,3 +2,4 @@
   id: "skill_agility"
   description: "Navigating obstacles and traps."
   category: "utility"
+  sort_order: 1

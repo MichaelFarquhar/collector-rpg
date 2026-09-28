@@ -1,20 +1,17 @@
-- name: 'Night Crow'
-  id: 'night_crow'
-  description: 'Increased experience gains at night locations.'
-  location: 'graveyard'
-  alignment: 'evil'
-  rarities: ['common', 'uncommon', 'rare', 'epic', 'legendary']
+- name: "Night Crow"
+  id: "night_crow"
+  description: "Increased experience gains at night locations."
+  location: "graveyard"
+  alignment: "evil"
 
-- name: 'Baby Skeleton'
-  id: 'baby_skeleton'
-  description: 'Increased drop rate of bone items at the graveyard.'
-  location: 'graveyard'
-  alignment: 'evil'
-  rarities: ['common', 'uncommon', 'rare', 'epic', 'legendary']
+- name: "Baby Skeleton"
+  id: "baby_skeleton"
+  description: "Increased drop rate of bone items at the graveyard."
+  location: "graveyard"
+  alignment: "evil"
 
-- name: 'Feral Bat'
-  id: 'feral_bat'
-  description: 'Increased experience gains at underground locations.'
-  location: 'underground'
-  alignment: 'evil'
-  rarities: ['common', 'uncommon', 'rare', 'epic', 'legendary']
+- name: "Feral Bat"
+  id: "feral_bat"
+  description: "Increased experience gains at underground locations."
+  location: "underground"
+  alignment: "evil"
