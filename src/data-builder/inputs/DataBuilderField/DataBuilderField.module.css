@@ -1,0 +1,3 @@
+.input {
+  composes: control from "../inputControl.module.css";
+}

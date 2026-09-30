@@ -1,4 +1,5 @@
 import { Route, Switch } from "wouter";
+import { DataBuilderContent } from "../content/DataBuilderContent.tsx";
 import { dataBuilderRoutes } from "./dataBuilderRoutes.tsx";
 
 export const DataBuilderRouter = () => {
@@ -6,9 +7,19 @@ export const DataBuilderRouter = () => {
 
   return (
     <Switch>
-      {routes.map((route) => (
-        <Route key={route.path} path={route.path} component={route.Page} />
-      ))}
+      {routes.map((route) => {
+        const Page = route.Page;
+
+        return (
+          <Route key={route.path} path={route.path}>
+            {(params) => (
+              <DataBuilderContent info={route.info}>
+                <Page params={params} />
+              </DataBuilderContent>
+            )}
+          </Route>
+        );
+      })}
     </Switch>
   );
 };

@@ -1,0 +1,32 @@
+.form {
+  composes: tokens from "./inputControl.module.css";
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 1rem;
+  width: 100%;
+  max-width: 28rem;
+}
+
+.submit {
+  align-self: flex-start;
+  margin-top: 0.25rem;
+  padding: 0.5rem 0.75rem;
+  font-family: inherit;
+  font-size: var(--input-font-size);
+  line-height: var(--input-line-height);
+  color: inherit;
+  cursor: pointer;
+  background: transparent;
+  border: var(--input-border-width) solid var(--input-border-color);
+  border-radius: var(--input-radius);
+}
+
+.submit:hover {
+  background: var(--input-highlight);
+}
+
+.submit:focus-visible {
+  outline: 1px solid currentColor;
+  outline-offset: 2px;
+}

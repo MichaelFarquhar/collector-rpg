@@ -1,0 +1,6 @@
+.error {
+  margin: 0;
+  font-size: var(--input-error-size);
+  line-height: var(--input-line-height);
+  color: var(--input-error-color);
+}

@@ -1,0 +1,17 @@
+.box {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.65rem;
+  border: 2px dashed currentColor;
+  border-radius: 0;
+}
+
+.icon {
+  flex-shrink: 0;
+  font-size: 1rem;
+}
+
+.text {
+  margin: 0;
+}
